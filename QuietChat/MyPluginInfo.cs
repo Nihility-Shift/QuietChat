@@ -7,8 +7,8 @@ namespace QuietChat
         public const string PLUGIN_GUID = $"{PLUGIN_ORIGINAL_AUTHOR}.{PLUGIN_NAME}";
         public const string PLUGIN_NAME = "QuietChat";
         public const string USERS_PLUGIN_NAME = "Quiet Chat";
-        public const string PLUGIN_VERSION = "0.0.1";
-        public const string PLUGIN_DESCRIPTION = "Removes chat messages produced by the game. Player messages are still displayed. Client Side.";
+        public const string PLUGIN_VERSION = "0.0.2";
+        public const string PLUGIN_DESCRIPTION = "Removes chat messages produced by the game. Player messages are still displayed.";
         public const string PLUGIN_ORIGINAL_AUTHOR = "18107";
         public const string PLUGIN_AUTHORS = "18107";
         public const string PLUGIN_THUNDERSTORE_ID = "VoidCrewModdingTeam/QuietChat";

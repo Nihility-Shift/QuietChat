@@ -1,3 +1,6 @@
+## 0.0.2
+- Rebuilt for Void Crew 1.0.3
+
 ## 0.0.1
 - Updated for Void Crew 0.27.0 (Update 5).
 

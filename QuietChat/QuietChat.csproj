@@ -3,7 +3,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>QuietChat</AssemblyName>
     <Description>Template</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
@@ -12,7 +12,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>QuietChat</RootNamespace>
-    <AssemblyTitle>Removes chat messages produced by the game. Player messages are still displayed. Client Side.</AssemblyTitle>
+    <AssemblyTitle>Removes chat messages produced by the game. Player messages are still displayed.</AssemblyTitle>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>none</DebugType>
