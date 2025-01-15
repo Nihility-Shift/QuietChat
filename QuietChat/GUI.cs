@@ -5,7 +5,7 @@ namespace QuietChat
 {
     internal class GUI : ModSettingsMenu
     {
-        public override string Name() => "Quiet Chat";
+        public override string Name() => MyPluginInfo.USERS_PLUGIN_NAME;
 
         public override void Draw()
         {

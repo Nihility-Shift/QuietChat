@@ -4,9 +4,9 @@
 
 # Quiet Chat
 
-Version 0.0.2  
+Version 0.0.3  
 For Game Version 1.0.3  
-Developed by 18107  
+Developed by 18107, Dragon  
 Requires:  BepInEx-BepInExPack-5.4.2100, VoidCrewModdingTeam-VoidManager-1.2.5 
 
 
