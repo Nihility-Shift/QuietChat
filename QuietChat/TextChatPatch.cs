@@ -23,7 +23,7 @@ namespace QuietChat
                 __instance.AddLog(new Log("", obj.Message));
 
                 VisualElement log = logView.ElementAt(logView.childCount - 1);
-                chatUI.schedule.Execute(() => logView.Remove(log)).ExecuteLater(8000);
+                chatUI.schedule.Execute(() => { if (logView.Contains(log)) { logView.Remove(log); } }).ExecuteLater(8000);
             }
             //else don't display the message
             return false;
