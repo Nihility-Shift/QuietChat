@@ -1,3 +1,6 @@
+## 0.0.4
+- Updated for Void Crew 1.2.2
+
 ## 0.0.3
 - Fixed bug which caused damage makers, chat, and other visual elements to stop functioning.
 
