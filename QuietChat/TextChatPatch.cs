@@ -20,7 +20,7 @@ namespace QuietChat
                 TextChatVE chatUI = (TextChatVE)chatUIField.GetValue(__instance);
                 ScrollView logView = (ScrollView)logViewField.GetValue(chatUI);
 
-                __instance.AddLog(new Log("", obj.Message));
+                __instance.AddLog(new LogEntry("", obj.Message));
 
                 VisualElement log = logView.ElementAt(logView.childCount - 1);
                 chatUI.schedule.Execute(() => { if (logView.Contains(log)) { logView.Remove(log); } }).ExecuteLater(8000);
